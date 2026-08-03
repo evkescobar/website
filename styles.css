@@ -1,0 +1,244 @@
+body
+{
+    background-color: #D0F0C0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 2000px;
+}
+main 
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 130px;
+}
+#nav_banner {
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    position: fixed;
+    height: 130px;
+}
+#header_row_container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(1, 32, 15, .85);
+    overflow: visible;
+    width: 100%;
+}
+.header-row
+{ display: block;}
+.header-container
+{
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.header-left
+{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.header-center 
+{
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.header-right
+{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+#burger_container
+{
+    z-index: 999999;
+}
+.burger-trigger
+{
+    display: inline-block;
+}
+.hamburger
+{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    overflow: visible;
+    margin: 0;
+    cursor: pointer;
+    text-transform: none;
+    border: 0;
+    background-color: transparent;
+}
+#business_card
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 100vh;
+    font-size-adjust: 1.5;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+#card
+{
+    background: rgba(255, 255, 255, .2);
+    max-width: 94%;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+    padding: 20px;
+
+    position: relative;
+}
+#card img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 2px solid #104F55;
+
+}
+#card h1
+{
+    color:#01200F;
+}
+#card h2
+{
+    color:#B1740F;
+}
+#card h3
+{
+    color:#B1740F;
+    padding-top: 20px;
+}
+.social-links
+{
+    margin-top: 15px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    gap: 8px;
+}
+.social links a
+{
+    text-decoration: none;
+    color: #01200F;
+    background: #B1740F;
+    border-radius: 5px;
+    display: inline-block;
+}
+.social-links a:hover
+{
+    background: rgba(255, 255, 255, .5);
+}
+.contact
+{
+    display: inline-flex;
+    flex-direction: row;
+}
+#cert_banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+}
+
+.page-banner
+{
+    position: relative !important;
+    overflow: hidden;
+    width: 100%;
+
+    border-bottom: 2px solid #01200F;
+    box-sizing: border-box;
+}
+
+.page-banner:last-child
+{
+    border-bottom: none;
+}
+
+.page-banner img
+{
+    max-width: 100%;
+    max-height: 2000px;
+    display: block;   
+}
+
+.page-banner-label
+{
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+
+    font-size: large;
+    font-size-adjust: 3.0;
+        
+    transform:  translateY(100%);
+    transition: transform 0.3s ease-out, background-color 0.2s ease;
+}
+.banner-link
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+
+    color: #B4EBCA;
+    font-size: large;
+    font-size-adjust: 3.0;
+}
+
+.page-banner:hover .page-banner-label,
+.page-banner:focus-within .page-banner-label
+{
+    transform: translateY(0);
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.8)
+}
+
+.page-banner-label:hover
+{
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.banner-icon
+{
+    color: #B4EBCA;
+    font-size: 4.0em;
+    transition: transform 0.2s ease-out, color 0.2s ease;
+}
+
+.banner-link:hover .banner-icon
+{
+    transform: translateX(5px);
+    color:#FFFFFF;
+}
