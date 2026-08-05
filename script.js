@@ -11,3 +11,10 @@
             section.style.display = 'none';
         }, 15000);
     });
+//event listener for hamburger dropdown button
+const btn = document.getElementById('menu-btn');
+const menu = document.getElementById('dropdown-menu');
+
+btn.addEventListener('click', () => {
+  menu.classList.toggle('show-menu');
+});
