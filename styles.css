@@ -208,13 +208,13 @@ main
 a#scroll-btn
 {
     position: absolute;
-    height: 10em;
-    width: 6.25em;
+    height: 6em;
+    width: 4.25em;
     border: 0.5em solid #104F55;
     margin: auto;
     left: 0;
     right: 0;
-    bottom: 6.25em;
+    bottom: 2em;
     border-radius: 3em;
 }
 
@@ -237,7 +237,7 @@ a#scroll-btn::before
     80% {opacity: 0.5;}
     100% 
     {
-        transform: translateY(2em);
+        transform: translateY(1em);
         opacity: 0;
     }
 }
@@ -246,15 +246,15 @@ a#scroll-btn::after
 {
     position: absolute;
     content: "Scroll Down";
-    width: 12em;
+    width: 16em;
     display: block;
     text-align: center;
-    left: -1em;
-    bottom: -9em;
+    left: -4em;
+    bottom: -4em;
     font-size: 0.5em;
     color: #104F55;
-    letter-spacing: 2px;
-    font-weight: 600;
+    letter-spacing: 1px;
+    font-weight: 100;
 }
 
 /*@media (max-width:500px) 
