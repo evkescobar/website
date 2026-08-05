@@ -1,3 +1,4 @@
+html { scroll-behavior: smooth;}
 body
 {
     background-color: #D0F0C0;
@@ -155,6 +156,78 @@ main
     display: inline-flex;
     flex-direction: row;
 }
+/* scroll button CSS */
+*
+{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fade-in-delayed
+{
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 5s;
+}
+
+@keyframes fadeIn 
+{
+    to {opacity: 1;}    
+}
+
+a#scroll-btn
+{
+    position: absolute;
+    height: 10em;
+    width: 6.25em;
+    border: 0.5em solid #104F55;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 6.25em;
+    border-radius: 3em;
+}
+
+a#scroll-btn::before
+{
+    position: absolute;
+    content: "";
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 1em;
+    height: 1.2em;
+    width: 1.2em;
+    background-color: #104F55;
+    border-radius: 50%;
+    animation: move-down 2s infinite;
+}
+@keyframes move-down
+{
+    80% {opacity: 0.5;}
+    100% 
+    {
+        transform: translateY(2em);
+        opacity: 0;
+    }
+}
+
+a#scroll-btn::after
+{
+    position: absolute;
+    content: "Scroll Down";
+    width: 12em;
+    display: block;
+    text-align: center;
+    left: -1em;
+    bottom: -9em;
+    font-size: 0.5em;
+    color: #104F55;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+
 #cert_banner
 {
     display: flex;
