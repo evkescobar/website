@@ -248,6 +248,7 @@ a#scroll-btn::after
     position: relative !important;
     overflow: hidden;
     width: 100%;
+    max-height: 50vh;
 
     border-bottom: 2px solid #01200F;
     box-sizing: border-box;
