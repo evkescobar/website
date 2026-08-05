@@ -65,6 +65,8 @@ main
 #burger_container
 {
     z-index: 999999;
+    position: relative;
+    display: inline-block;
 }
 .burger-trigger
 {
@@ -82,6 +84,35 @@ main
     border: 0;
     background-color: transparent;
 }
+
+.hidden-menu
+{display: none;}
+.show
+{display: block;}
+#dropdown-menu {
+    position: absolute;
+    right: 5vh; /* Aligns it underneath your icon padding */
+    top: 100%;  /* Pushes it right below the header bar */
+    background-color: rgba(1, 32, 15, 0.95); /* Matches header color */
+    min-width: 150px;
+    display: none;
+    flex-direction: column;
+}
+
+#dropdown-menu a {
+    color: #D0F0C0;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+#dropdown-menu.show-menu 
+{
+    display: flex;
+}
+
+#dropdown-menu a:hover {
+    background-color: rgba(208, 240, 192, 0.2);
+}
+
 #business_card
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
