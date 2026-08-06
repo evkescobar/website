@@ -46,6 +46,7 @@ main
     justify-content: flex-start;
     display: flex;
     align-items: center;
+    width: 20vh;
 }
 .header-center 
 {
@@ -53,12 +54,14 @@ main
     justify-content: center;
     display: flex;
     align-items: center;
+    width: 60vh;
 }
 .header-right
 {
     justify-content: flex-end;
     display: flex;
     align-items: center;
+    width: 20vh;
 }
 #burger_container
 {
@@ -125,7 +128,7 @@ main
 #card
 {
     background: rgba(255, 255, 255, .2);
-    height: 60vh;
+    height: 65vh;
     width: 90vh;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
