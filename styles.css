@@ -322,9 +322,9 @@ a#scroll-btn::after
 @media only screen and (max-width:500px) 
 {
     #card {width: 90vh;}
-    #card.h1 {font-size-adjust: 1;}
-    #card.h2 {font-size-adjust: 1;}
-    #card.h3 {font-size-adjust: 1;}
+    #card.h1 {font-size: large;}
+    #card.h2 {font-size: large;}
+    #card.h3 {font-size: large;}
     .page-banner-label {font-size-adjust: 1em;}
     .contact > img {height: 10vh; width: 10vh;}
 }
