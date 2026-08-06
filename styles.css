@@ -321,7 +321,7 @@ a#scroll-btn::after
 }
 @media only screen and (max-width:500px) 
 {
-    .page-banner-label {font-size: medium; font-size-adjust: 1em;}
+    .page-banner-label {font-size-adjust: 1em;}
 }
 .banner-link
 {
