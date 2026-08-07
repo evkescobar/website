@@ -18,3 +18,19 @@ const menu = document.getElementById('dropdown-menu');
 btn.addEventListener('click', () => {
   menu.classList.toggle('show-menu');
 });
+
+//Collapsible menu for Certifications
+var coll = document.getElementsByClassName("collapsible");
+
+for (var i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+
+        if (content.style.maxHeight && content.style.maxHeight !== "0px") {
+            content.style.maxHeight = "0px"; // collapse
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px"; // expand
+        }
+    });
+}
