@@ -321,7 +321,7 @@ a#scroll-btn::after
 }
 @media only screen and (max-width:500px) 
 {
-    #card {width: 90vh; height; 80vh;}
+    #card {width: 90vh; height; 90vh;}
     #card.h1 {font-size: large;}
     #card.h2 {font-size: large;}
     #card.h3 {font-size: large;}
