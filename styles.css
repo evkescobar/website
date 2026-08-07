@@ -325,6 +325,7 @@ a#scroll-btn::after
     #card.h1 {font-size: large;}
     #card.h2 {font-size: large;}
     #card.h3 {font-size: large;}
+    .social links a {display: block;}
     .page-banner-label {font-size-adjust: 1em;}
     .contact > img {height: 10vh; width: 10vh;}
 }
