@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/47a8801911.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 </head>
 <body>
     <header id="nav_banner" class="header-wrapper">
@@ -33,7 +34,7 @@
         </div>
     </header>
     <main>
-        <h1>Certifications</h1>
+        <h1>Certifications</h1>       
         <div id="cert-container">
             <button type="button" class="collapsible">JavaScript Certification - Udemy July 27, 2026</button>
             <div class="content">
@@ -51,6 +52,7 @@
                 <h2>C.I.P. Course Content</h2>
                 <p>Skills: Crisis Intervention</p>
                 <p>Completion of a comprehensive 16-hour training session, designed to assist participants in recognizing and understanding mental illness and other associated disorders; including a segment on de-escalating persons in crisis.</p>
+            <canvas id="pdf-canvas-Crisis-Intervention"></canvas>
             </div>
 
             <button type="button" class="collapsible">Web AIM ADA Compliance February 2026</button>
@@ -102,6 +104,7 @@
                             <li>Feedback and Organizational Communication</li>
                         </ul>
                 </ul>
+                <canvas id="pdf-canvas-Snagit-Cert"></canvas>
             </div>
 
             <button type="button" class="collapsible">Jira Administration June 2023</button>
