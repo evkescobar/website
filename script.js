@@ -34,3 +34,33 @@ for (var i = 0; i < coll.length; i++) {
         }
     });
 }
+
+//PDF.js setup for rendering PDFs
+const url = '/documents/Snagit-Cert.pdf';
+const loadingTask = pdfjsLib.getDocument(url);
+loadingTask.promise.then(pdf => {
+pdf.getPage(1).then(page => {
+const scale = 1.5;
+const viewport = page.getViewport({ scale });
+const canvas = document.getElementById('pdf-canvas-Snagit-Cert');
+const context = canvas.getContext('2d');
+canvas.height = viewport.height;
+canvas.width = viewport.width;
+page.render({ canvasContext: context, viewport });
+});
+});
+
+//PFD.js setup for rendering PDF 2
+const url2 = '/documents/Crisis_Intervention_Training_20260421.pdf';
+const loadingTask2 = pdfjsLib.getDocument(url2);
+loadingTask2.promise.then(pdf => {
+pdf.getPage(1).then(page => {
+    const scale = 1.5;
+    const viewport = page.getViewport({ scale });
+    const canvas = document.getElementById('pdf-canvas-Crisis-Intervention');
+    const context = canvas.getContext('2d');
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+    page.render({ canvasContext: context, viewport });
+});
+});
