@@ -128,8 +128,8 @@ main
 #card
 {
     background: rgba(255, 255, 255, .2);
-    height: 65vh;
-    width: 90vh;
+    height: 75vh;
+    width: 90vw;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -140,14 +140,17 @@ main
 
     position: relative;
 }
-#card img
+.contact > img
 {
-    width: 250px;
-    height: 250px;
+    width: 20vh;
+    height: 30vh;
+    max-width: 270px;
+    max-height: 405px;
     border-radius: 20%;
     object-fit: cover;
-    margin-bottom: 15px;
+    margin-bottom: 5vh;
     border: 2px solid #104F55;
+    z-index: 1;
 
 }
 #card h1
@@ -164,7 +167,7 @@ main
 }
 .social-links
 {
-    margin-top: 15px;
+    margin-top: 2vh;
     position: absolute;
     top: 10%;
     right: 10%;
@@ -180,10 +183,17 @@ main
     background: #B1740F;
     border-radius: 5px;
     display: inline-block;
+    z-index: 1;
 }
 .social-links a:hover
 {
     background: rgba(255, 255, 255, .5);
+}
+.social-links-icons
+{
+    width: 15vw;
+    height: 15vh;
+    filter: invert(24%) sepia(36%) saturate(1478%) hue-rotate(138deg) brightness(91%) contrast(92%);
 }
 .contact
 {
@@ -322,15 +332,15 @@ a#scroll-btn::after
     transform:  translateY(100%);
     transition: transform 0.3s ease-out, background-color 0.2s ease;
 }
-@media only screen and (max-width:500px) 
+@media only screen and (max-width:750px) 
 {
-    #card {width: 90vh; height; 90vh;}
-    #card.h1 {font-size: large;}
-    #card.h2 {font-size: large;}
-    #card.h3 {font-size: large;}
-    .social links a {display: block;}
+    #card {width: 90vh; height: 80vh;}
+    #card.h1 {font-size-adjust: 0.5;}
+    #card.h2 {font-size-adjust: 0.5;}
+    #card.h3 {font-size-adjust: 0.5;}
     .page-banner-label {font-size-adjust: 1em;}
     .contact > img {height: 10vh; width: 10vh;}
+    .social-links a {display: flex; flex-direction: column; justify-content: center; align-items: center; height: 10vh; width: 10vh;}
 }
 .banner-link
 {
@@ -389,7 +399,7 @@ transition: background-color 0.3s ease;
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-background-color: #A4494;
+background-color: #2A4494;
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -407,13 +417,13 @@ padding: 0 18px;
 }
 
 .collapsible:after {
-content: "+";
+content: "+"; 
 font-size: large;
-color: #B4EBCA;
 float: right;
 margin-left: 5px;
+color: #B4EBCA;
 }
 
 .active:after {
-content: "-";
+content: "-"; 
 }
