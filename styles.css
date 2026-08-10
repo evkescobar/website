@@ -427,3 +427,12 @@ color: #B4EBCA;
 .active:after {
 content: "-"; 
 }
+
+/*PDF Viewer Styles*/
+canvas
+{
+    border: 2px solid #000;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    width: 100%
+}
