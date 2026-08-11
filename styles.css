@@ -167,14 +167,12 @@ main
 }
 .social-links
 {
-    margin-top: 2vh;
-    position: absolute;
-    top: 10%;
-    right: 10%;
     display: flex;
     flex-direction: row;
-    height: 20%;
-    gap: 8px;
+    gap: 20px;
+    margin-left: 10vw;
+    max-width: 16vw;
+    max-height: 16vh;
 }
 .social links a
 {
