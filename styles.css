@@ -104,6 +104,8 @@ main
     color: #D0F0C0;
     padding: 10px 15px;
     text-decoration: none;
+    height: 10vh;
+    font-size-adjust: 1;
 }
 #dropdown-menu.show-menu 
 {
