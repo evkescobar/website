@@ -337,7 +337,6 @@ a#scroll-btn::after
 {
     #card {width: 90vh; height: 80vh;}
     #business_card h2, #business_card h3 {font-size-adjust: 0.5;}
-    #business_card p {font-size-adjust: 0.4;}
     .page-banner-label {font-size-adjust: 1em;}
     .contact > img {height: 10vh; width: 10vh;}
     .social-links a {display: flex; flex-direction: column; justify-content: center; align-items: center; height: 10vh; width: 10vh;}
