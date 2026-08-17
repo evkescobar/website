@@ -349,10 +349,10 @@ main
 }
 @media only screen and (max-width:750px) 
 {
-    #card {width: 90vw; height: 80vh;}
+    #card {width: 90vw; height: 60vh;}
     #business_card h2, #business_card h3 {font-size-adjust: 0.5;}
     .page-banner-label {font-size-adjust: 1em;}
-    .contact > img {height: 10vh; width: 10vw;}
+    .contact > img {height: 10vh; width: 10vh;}
     .social-links a {display: flex; flex-direction: column; justify-content: center; align-items: center; height: 10vh; width: 10vh;}
     .page-banner-label span { font-size-adjust: 1.25;}
 }
