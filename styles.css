@@ -280,7 +280,7 @@ main
     80% {opacity: 0.5;}
     100% 
     {
-        transform: translateY(4em);
+        transform: translateY(3em);
         opacity: 0;
     }
 }
