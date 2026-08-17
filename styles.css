@@ -115,7 +115,7 @@ main
     justify-content:center;
     align-items:center;
     min-height: 90vh; /* prevents height collapse and scales relative to navbar height */
-    width: 100vw;
+    width: 90vw;
     box-sizing: border-box;
     padding-top: 5vh;
     padding-bottom: 30vh;
