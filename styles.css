@@ -13,6 +13,8 @@ main
     align-items: center;
     width: 100vw;
     margin-top: 10vh; /* Adjust this value based on the height of your fixed header */
+    margin-left: 0;
+    margin-right: 0;
 }
 #nav_banner {
     width: 100%;
