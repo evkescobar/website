@@ -117,8 +117,8 @@ main
     min-height: 90vh; /* prevents height collapse and scales relative to navbar height */
     width: 90vw;
     box-sizing: border-box;
-    padding-top: 5vh;
-    padding-bottom: 30vh;
+   /* padding-top: 5vh;
+    padding-bottom: 30vh; */
     font-size-adjust: 1;
     margin: 0;
 
