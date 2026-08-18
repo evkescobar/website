@@ -280,7 +280,7 @@ main
     80% {opacity: 0.5;}
     100% 
     {
-        transform: translateY(3em);
+        transform: translateY(2em);
         opacity: 0;
     }
 }
@@ -356,15 +356,6 @@ main
     .contact > img {height: 12vh; width: 10vh;}
     .social-links a {display: flex; flex-direction: column; justify-content: center; align-items: center; height: 10vh; width: 10vh;}
     .page-banner-label span { font-size-adjust: 1.25;}
-        @keyframes move-down
-        {
-            80% {opacity: 0.5;}
-            100% 
-         {
-             transform: translateY(2em);
-            opacity: 0;
-         }
-        }
 }
 .banner-link
 {
