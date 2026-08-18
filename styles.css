@@ -13,8 +13,6 @@ main
     align-items: center;
     width: 100vw;
     margin-top: 10vh; /* Adjust this value based on the height of your fixed header */
-    margin-left: 0;
-    margin-right: 0;
 }
 #nav_banner {
     width: 100%;
@@ -135,7 +133,7 @@ main
     max-width: 1500px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    overflow: visible;
+    overflow: hidden;
     text-align: left;
     padding: 20px;
     margin-bottom: 5vh;
