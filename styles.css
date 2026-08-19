@@ -352,7 +352,7 @@ main
    #card {width: 90vw; height: 60vh;}
     #business_card { height:85vh; min-height: 80vh;}
     #business_card h2, #business_card h3 {font-size-adjust: 0.5;}
-    #card {height: 50vh; margin-bottom: 0;}
+    #card {height: 45vh; margin-bottom: 0;}
     .page-banner-label {font-size-adjust: 1em;}
     .contact > img {height: 12vh; width: 10vh;}
     .social-links a {display: flex; flex-direction: column; justify-content: center; align-items: center; height: 10vh; width: 10vh;}
