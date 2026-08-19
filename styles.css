@@ -350,7 +350,7 @@ main
 @media only screen and (max-width:750px) 
 {
    #card {width: 90vw; height: 60vh;}
-    #business_card { height:85vh; min-height: 80vh;}
+    #business_card { height:80vh; min-height: 80vh;}
     #business_card h2, #business_card h3 {font-size-adjust: 0.5;}
     #card {height: 45vh; margin-bottom: 0;}
     .page-banner-label {font-size-adjust: 1em;}
