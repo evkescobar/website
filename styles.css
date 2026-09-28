@@ -551,3 +551,50 @@ canvas
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 }
+/* Contest Section Styles */
+
+#contest-section
+{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    gap: 10px;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    place-items: center;
+}
+#Maxim-banner 
+{
+    width: 50vw;
+    max-width: 540px;
+    height: auto;
+}
+#vote-icon
+{
+    width: 25vw;
+    max-width: 100px;
+    height: auto;
+}
+.btn
+{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #B4EBCA;
+    border: 1px solid rgba(1, 32, 15, .85);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.btn:hover
+{
+    background-color: #C3FBF4;
+}
+.btn img
+{
+    filter: invert(24%) sepia(36%) saturate(1478%) hue-rotate(138deg) brightness(91%) contrast(92%);
+}
